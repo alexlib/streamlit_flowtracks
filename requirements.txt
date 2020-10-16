@@ -1,6 +1,6 @@
 plotly
 numpy
 scipy
-pytables
+tables
 flowtracks
 streamlit
