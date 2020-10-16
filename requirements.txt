@@ -1,3 +1,4 @@
-plotly==4.11.0
-flowtracks==1.0
-streamlit==0.67.1
+plotly
+flowtracks
+git+https://github.com/openptv/postptv@master#egg=flowtracks
+streamlit
