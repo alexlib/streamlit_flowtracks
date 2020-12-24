@@ -20,8 +20,8 @@ st.text(ptv_list[0].rsplit('/')[-1])
 st.text(ptv_list[-1].rsplit('/')[-1])
 
 st.text("Choose first, last:")
-first = int(st.text_input('first', 10001))
-last = int(st.text_input('last', 10004))
+first = int(st.text_input('first', 10000001))
+last = int(st.text_input('last', 10000004))
 
 st.text("Choose minimum length")
 min_length = int(st.text_input("minimum length:",last-first))
