@@ -9,7 +9,7 @@ from flowtracks.io import iter_trajectories_ptvis
 
 # st.title(project_title)
 
-path = st.text_input('Insert folder path, including /res', '/home/user/Downloads/test_cavity/res/')
+path = st.text_input('Insert folder path, including /res', 'res/')
 if path:
     ptv_list = sorted(glob.glob(path+'/ptv_is.*'))
 
